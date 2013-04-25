@@ -5,4 +5,9 @@
  * Time: 16:40
  */
 
-exports.Modules = require('./lib/modules').Modules;
+var ModuleManager = require('./lib/moduleManager').ModuleManager;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+exports.ModuleManager = ModuleManager;
+exports.moduleManager = new ModuleManager();
