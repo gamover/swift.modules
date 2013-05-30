@@ -2,12 +2,13 @@
     "author": "G@mOBEP <rusmiran@gmail.com>",
     "name": "swift.modules",
     "description": "modules",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "repository": {
         "type": "git",
         "url": "https://github.com/gamover/swift.modules.git#master"
     },
     "dependencies": {
+        "swift.errors": "*",
         "swift.utils": "*"
     },
     "devDependencies": {},
